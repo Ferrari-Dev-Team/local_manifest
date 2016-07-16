@@ -12,4 +12,5 @@
 
 	<!-- Snapdragon Stuff -->
 	<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github"  revision="cm-13.0" />
+	<project name="CyanogenMod/android_external_stlport" path="external/stlport"  revision="cm-13.0" />
 </manifest>
