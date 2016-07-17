@@ -6,9 +6,9 @@
 	<project path="external/boringssl" name="Ferrari-Dev-Team/android_external_boringssl" remote="github" revision="cm-13.0"/>
 
 	<!-- Device repos -->
-	<project path="device/xiaomi/ferrari" name="Ferrari-Dev-Team/android_external_boringssl" remote="github" revision="cm-13.0"/>
-	<project path="kernel/xiaomi/ferrari" name="Ferrari-Dev-Team/android_external_boringssl" remote="github" revision="cm-13.0"/>
-	<project path="vendor/xiaomi/ferrari" name="Ferrari-Dev-Team/android_external_boringssl" remote="github" revision="cm-13.0-new"/>
+	<project path="device/xiaomi/ferrari" name="Ferrari-Dev-Team/android_device_xiaomi_ferrari" remote="github" revision="cm-13.0"/>
+	<project path="kernel/xiaomi/ferrari" name="Ferrari-Dev-Team/android_kernel_xiaomi_ferrari" remote="github" revision="cm-13.0-new"/>
+	<project path="vendor/xiaomi/ferrari" name="Ferrari-Dev-Team/android_vendor_xiaomi_ferrari" remote="github" revision="cm-13.0"/>
 
 	<!-- Snapdragon Stuff -->
 	<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github"  revision="cm-13.0" />
