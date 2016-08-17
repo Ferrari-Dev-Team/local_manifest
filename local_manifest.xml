@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<!-- BoringSSL fix -->
-	<remove-project name="CyanogenMod/android_external_boringssl" />
-	<project path="external/boringssl" name="Ferrari-Dev-Team/android_external_boringssl" remote="github" revision="cm-13.0"/>
-
 	<!-- Device repos -->
 	<project path="device/xiaomi/ferrari" name="Ferrari-Dev-Team/android_device_xiaomi_ferrari" remote="github" revision="cm-13.0"/>
 	<project path="kernel/xiaomi/ferrari" name="Ferrari-Dev-Team/android_kernel_xiaomi_ferrari" remote="github" revision="cm-13.0-new"/>
