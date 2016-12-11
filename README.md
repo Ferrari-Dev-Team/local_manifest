@@ -20,7 +20,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 (For other roms, please follow their own trees)
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
+    repo init -u git://github.com/CyanogenMod/android.git -b cm-14.1
 
 Then to to get the local manifests
 
