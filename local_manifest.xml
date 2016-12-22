@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<!-- Device repos -->
-	<project path="device/xiaomi/ferrari" name="Ferrari-Dev-Team/android_device_xiaomi_ferrari" remote="github" revision="cm-14.1"/>
-	<project path="kernel/xiaomi/ferrari" name="Ferrari-Dev-Team/android_kernel_xiaomi_ferrari" remote="github" revision="cm-14.1-official"/>
-	<project path="vendor/xiaomi" name="Ferrari-Dev-Team/android_vendor_xiaomi_ferrari" remote="github" revision="staging" />
-	<project name="CyanogenMod/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="github" revision="cm-14.1" />
-	<project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
-
-	<!-- Snapdragon Stuff -->
-	<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github"  revision="cm-14.1" />
-	<project name="CyanogenMod/android_external_stlport" path="external/stlport"  revision="cm-14.1" />
+<!-- Device repos -->
+<project path="device/xiaomi/ferrari" name="CyanogenMod/android_device_xiaomi_ferrari" remote="github" revision="cm-14.1"/>
+<project path="kernel/xiaomi/ferrari" name="CyanogenMod/android_kernel_xiaomi_ferrari" remote="github" revision="cm-14.1"/>
+<project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" remote="github" revision="cm-14.1" />
+<project name="CyanogenMod/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="github" revision="cm-14.1" />
+<project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
+<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github"  revision="cm-14.1" />
+<project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
+<project name="CyanogenMod/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
 </manifest>
